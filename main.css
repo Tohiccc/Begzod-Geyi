@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2D0DAD;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ota{
+    display: flex;
+    Width: 1200px;
+    Height: 614px;
+    border-radius: 50px;
+    background-color: #E0F021;
+    flex-wrap: wrap;
+    padding: 70px;
+    gap: 85px;
+}
+.bola{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #240404;
+    justify-content: center;
+    align-items: center;
+}
+.nevara{
+    display: flex;
+    width: 133px;
+    height: 78px;
+    background-color: #D81414;
+    font-size: 32px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
