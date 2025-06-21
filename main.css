@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,4 +39,103 @@ body{
     color: white;
     align-items: center;
     justify-content: center;
+} */
+ 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    border: 40px;
+    background-color:#343C56;
+
+}
+
+.header{
+    padding-top: 46px;
+
+}
+
+.lict{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.item{
+    width: 200px;
+    border-radius: 30px;
+    background-color: #FF0101;
+    text-align: center;
+    padding: 14px 0;
+
+}
+.link{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-decoration: none;
+}
+.hero{
+    padding-top: 68px;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.Toxr1{
+    text-decoration: none;
+    padding: 14px 0;
+    color: white;              
+    padding: 20px 40px;
+    font-weight: 700;
+    background-color: black;   
+    font-weight: 700;         
+    width: fit-content;         
+    margin: 0 auto;            
+    text-align: center;      
+    font-size: 24px;            
+    text-align: center;
+    border-radius: 20px;   
+    margin-top: 100px; 
+
+}
+
+.ota{
+    Width: 400px;
+    Height: 200px;
+    border-radius: 50px;
+    background: #EB1616;
+    text-align: center;
+    display: flex; 
+    align-items: center;        
+    background-color: lime; 
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.doda{
+     Width: 400px;
+    Height: 200px;
+    border-radius: 50px;
+    background: #EB1616;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;         
+    gap: 20px;                 
 }
